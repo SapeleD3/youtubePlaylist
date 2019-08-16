@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>videoViewer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="data:image/png;base64,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"
+                alt="logo" class="logo">
+        </header>
+
+        <section id="video">
+           
+        </section>
+
+        <main>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
